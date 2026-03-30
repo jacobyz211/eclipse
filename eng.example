@@ -1,0 +1,4 @@
+# Optional: paste a known client_id here to skip auto-fetch on startup.
+# If left blank, the server will auto-fetch it from SoundCloud on boot.
+PORT=3000
+SC_CLIENT_ID=
