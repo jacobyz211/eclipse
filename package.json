@@ -1,7 +1,7 @@
 {
   "name": "eclipse-soundcloud-addon",
   "version": "1.0.0",
-  "description": "SoundCloud addon for Eclipse Music App — auto-fetches client_id, no setup required.",
+  "description": "SoundCloud addon for Eclipse Music App",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
