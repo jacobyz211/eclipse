@@ -34,6 +34,7 @@ def stream(track_id):
 
 if __name__ == '__main__':
     import os
-    port = int(os.environ.get("PORT", 5000))
+    # Render assigns a port dynamically. We MUST use it.
+    port = int(os.environ.get("PORT", 10000))
+    # '0.0.0.0' allows the app to be 'seen' by Render's network
     app.run(host='0.0.0.0', port=port)
-
