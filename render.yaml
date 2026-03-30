@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: eclipse-soundcloud-addon
+    runtime: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SC_CLIENT_ID
+        sync: false
